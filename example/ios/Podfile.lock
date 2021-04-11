@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - number_precision (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - number_precision (from `.symlinks/plugins/number_precision/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  number_precision:
+    :path: ".symlinks/plugins/number_precision/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  number_precision: 26fa2be2212f9d1429f92d667d6b0aa4df0058d8
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.8.0

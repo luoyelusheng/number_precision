@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="887f44c4-3750-48c1-981c-e6e81910a05d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1r1VNfiwh7H1etuu5iFTWhQVjhg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="887f44c4-3750-48c1-981c-e6e81910a05d" name="Default Changelist" comment="" />
+      <created>1618143544912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618143544912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618143781742">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1618143781742" />
+    <state x="457" y="258" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1618143779230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="258" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1618143779230" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1618144751022">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618144751022" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1618144751020">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618144751020" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1618144751020">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618144751020" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1618144751021">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618144751021" />
+  </component>
+</project>
