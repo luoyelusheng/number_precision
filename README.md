@@ -16,7 +16,7 @@ Perform addition, subtraction, multiplication and division operations precisely 
 
 ```yaml
 dependencies:
-  number_precision: ^1.0.1+1
+  number_precision: ^1.0.0+1
 ```
 
 ## Methods
