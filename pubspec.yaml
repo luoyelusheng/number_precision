@@ -1,6 +1,6 @@
 name: number_precision
 description: Perform addition, subtraction, multiplication and division operations precisely using dart
-version: 1.0.0+1
+version: 1.0.0+2
 homepage: https://github.com/luoyelusheng/number_precision
 
 environment:
