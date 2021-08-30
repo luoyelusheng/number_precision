@@ -51,8 +51,9 @@ class NP {
             .toStringAsFixed(dLen as int)
             .replaceAll(dLen == 0 ? '' : '.', ''));
       } else if (number is num) {
-        return num.parse(
-            number.toStringAsFixed(dLen as int).replaceAll(dLen == 0 ? '' : '.', ''));
+        return num.parse(number
+            .toStringAsFixed(dLen as int)
+            .replaceAll(dLen == 0 ? '' : '.', ''));
       }
 
       throw FormatException('$number is not of type num and String');
