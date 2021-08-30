@@ -48,11 +48,11 @@ class NP {
           return num.parse(number.replaceAll('.', ''));
         }
         return num.parse(num.parse(number)
-            .toStringAsFixed(dLen)
+            .toStringAsFixed(dLen as int)
             .replaceAll(dLen == 0 ? '' : '.', ''));
       } else if (number is num) {
         return num.parse(
-            number.toStringAsFixed(dLen).replaceAll(dLen == 0 ? '' : '.', ''));
+            number.toStringAsFixed(dLen as int).replaceAll(dLen == 0 ? '' : '.', ''));
       }
 
       throw FormatException('$number is not of type num and String');
@@ -77,7 +77,7 @@ class NP {
   /// [others] 更多操作数使用数组传递
   ///
   /// 譬如 times(1, 2, [22,33])
-  static num times(dynamic num1, dynamic num2, [List<dynamic> others]) {
+  static num times(dynamic num1, dynamic num2, [List<dynamic>? others]) {
     if (others != null) {
       return times(times(num1, num2), others[0],
           others.length >= 2 ? others.sublist(1) : null);
@@ -97,7 +97,7 @@ class NP {
   }
 
   /// 精确加法
-  static num plus(dynamic num1, dynamic num2, [List<dynamic> others]) {
+  static num plus(dynamic num1, dynamic num2, [List<dynamic>? others]) {
     if (others != null) {
       return plus(plus(num1, num2), others[0],
           others.length >= 2 ? others.sublist(1) : null);
@@ -107,7 +107,7 @@ class NP {
   }
 
   /// 精确减法
-  static num minus(dynamic num1, dynamic num2, [List<dynamic> others]) {
+  static num minus(dynamic num1, dynamic num2, [List<dynamic>? others]) {
     if (others != null) {
       return minus(minus(num1, num2), others[0],
           others.length >= 2 ? others.sublist(1) : null);
@@ -118,7 +118,7 @@ class NP {
   }
 
   /// 精确除法
-  static num divide(dynamic num1, dynamic num2, [List<dynamic> others]) {
+  static num divide(dynamic num1, dynamic num2, [List<dynamic>? others]) {
     if (others != null) {
       return divide(divide(num1, num2), others[0],
           others.length >= 2 ? others.sublist(1) : null);

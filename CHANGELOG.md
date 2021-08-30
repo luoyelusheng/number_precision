@@ -1,3 +1,6 @@
+## 2.0.0+1
+
+- Support null security.
 ## 1.0.0+1
 
-- TODO: Number_precision initial release.
+- Basic version implementation.
