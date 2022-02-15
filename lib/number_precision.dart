@@ -1,10 +1,10 @@
 import 'dart:math';
 
 /// The smallest possible value of an int within 64 bits.
-const int int64MinValue = -9223372036854775808;
+const int intMinValue = -9007199254740991;
 
 /// The biggest possible value of an int within 64 bits.
-const int int64MaxValue = 9223372036854775807;
+const int inMaxValue = 9007199254740991;
 
 class NP {
   static bool _boundaryCheckingState = true;
@@ -66,7 +66,7 @@ class NP {
   /// [number] 数据
   static void checkBoundary(dynamic number) {
     if (_boundaryCheckingState) {
-      if (number > int64MaxValue || number < int64MinValue) {
+      if (number > inMaxValue || number < intMinValue) {
         throw Exception(
             '$number is beyond boundary when transfer to integer, the results may not be accurate');
       }
@@ -86,15 +86,11 @@ class NP {
     num num1Changed = float2Fixed(num1);
     num num2Changed = float2Fixed(num2);
     num baseNum = digitLength(num1) + digitLength(num2);
-    num leftValue = num1Changed * num2Changed;
+    dynamic leftValue = num1Changed * num2Changed;
 
     checkBoundary(leftValue);
 
-    // if (leftValue.toString().length + baseNum < 20) {
     return NP.strip(leftValue / pow(10, baseNum));
-    // } else {
-    //   return NP.strip(num.parse('${leftValue}e-$baseNum'));
-    // }
   }
 
   /// 精确加法
